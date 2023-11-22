@@ -1,0 +1,32 @@
+.grupos{
+    background-color: blueviolet;
+}
+
+.grupo{
+    margin: 5px;
+}
+
+.grupo img{
+    transition: 0.1s linear;
+}
+
+.grupo img:hover{
+    transition: 0.1s linear;
+    width: 560px;
+}
+
+.evento{
+    background-color: blue;
+    margin-bottom: 30px;
+}
+
+img{
+    display: flex;
+    width: 500px;
+}
+
+@media (max-width: 600px) {
+    img{
+        width: 350px;
+    }
+}
