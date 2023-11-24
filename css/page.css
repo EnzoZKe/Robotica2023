@@ -1,3 +1,8 @@
+body{
+    background-image: url(/img/graf.jpg);
+    background-size: cover;
+}
+
 .grupos{
     background-color: blueviolet;
 }
@@ -8,11 +13,14 @@
 
 .grupo img{
     transition: 0.1s linear;
+    width: 500px;
+    height: 400px;
 }
 
 .grupo img:hover{
     transition: 0.1s linear;
     width: 560px;
+    height: 460px;
 }
 
 .evento{
@@ -20,13 +28,14 @@
     margin-bottom: 30px;
 }
 
-img{
-    display: flex;
-    width: 500px;
-}
-
 @media (max-width: 600px) {
-    img{
+    .grupo img{
         width: 350px;
+        height: 300px;
+    }
+
+    .grupo img:hover{
+        width: 450px;
+        height: 350px;
     }
 }
